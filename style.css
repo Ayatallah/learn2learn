@@ -1,0 +1,31 @@
+h5{
+
+	font-family: monospace;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 250;
+	line-height: 27px;
+}
+
+.jumbotron {
+  background-image:url('header.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron .container .row{
+
+	position: absolute;
+	bottom: 0;
+	left: 300px;
+	width: 750px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+  	background-color: #F79645;
+}
+
+
+
