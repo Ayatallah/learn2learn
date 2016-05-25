@@ -1,22 +1,32 @@
 h5{
 
-	font-family:"Everson Mono";
+	font-family:arial,sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 250;
+	font-weight: 200;
 	padding-top: 15%;
 }
 
-.jumbotron {
-  background-image:url('header.jpg');
+h3{
+
+	font-family:arial,sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 250;
+	color: #F79645;
+}
+
+.slider {
+  background-image:url('rsz_istock_000057096632_medium.jpg');
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.jumbotron .container .rox{
+.slider .container .slider-row{
 
 	position: absolute;
 	bottom: 0;
@@ -27,7 +37,7 @@ h5{
   	background-color: #F79645;
   	display: inline;
 }
-.jumbotron .container .rox2{
+.slider .container .slider-row2{
 
 	position: absolute;
 	bottom: 0;
@@ -44,13 +54,14 @@ h5{
 	border-radius: 7.5px;
 }
 
-.fa-play {
+.slider .container .slider-row2 .fa-play {
 	padding-top: 2px;
 	color: #fff;
+	position: relative;
 }
 
 .teachers {
-  height: 450px;
+  min-height: 470px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -61,11 +72,15 @@ h5{
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	margin-left: 25%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+
 }
 
 .name {
-	font-family: monospace;
+	margin: auto;
+	font-family:arial,sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -74,7 +89,8 @@ h5{
 }
 
 .description {
-	font-family: monospace;
+	margin: auto;
+	font-family: arial,sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -84,18 +100,90 @@ h5{
 	word-wrap: break-word;
 }
 
-.jumbo2 {
-  
-  height: 300px;
+.slider2 {
+
+  background-image:url('iStock_000058920914_Small.jpg');
+  height: 325px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-color: #F79645;
 }
-.jumbo2 .container {
-	background-image:url('header.jpg');
+
+.container-text {
+
+	font-family:arial,sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 250;
+	margin-top: 5%;
+	text-align: center;
+	text-transform: uppercase;
+	color:#F79645;
+
+}
+
+.container-text2 {
+
+	font-family:arial,sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 250;
+	text-align: center;
+	color:#FFF;
+
+}
+
+.container-text3{
+	font-family:arial,sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 250;
+	text-align: center;
+	color:#000;
+}
+
+.experience {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  position: relative;
+  min-height: 350px;
+}
+
+.slider3 {
+  background-image:url('slider_31.jpg');
+  height: 520px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+}
+.slider4 {
+
+  height: 620px;
+  width: 100%;
+  background-image:url('rsz_2girl.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.row-bottom{
 	width: 100%;
-	position: relative;
+	bottom: 0;
+	position: absolute;
+	height: 20px;
+	background-color: #F79645;
+}
+
+.row-top{
+	width: 100%;
 	top: 0;
-	height: 290px;
+	position: absolute;
+	height: 20px;
+	background-color: #F79645;
 }
