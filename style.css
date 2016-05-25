@@ -1,31 +1,101 @@
 h5{
 
-	font-family: monospace;
-	font-size: 15px;
+	font-family:"Everson Mono";
+	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 250;
-	line-height: 27px;
+	padding-top: 15%;
 }
 
 .jumbotron {
   background-image:url('header.jpg');
-  height: 500px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.jumbotron .container .row{
+.jumbotron .container .rox{
 
 	position: absolute;
 	bottom: 0;
-	left: 300px;
-	width: 750px;
-	padding-top: 7px;
-	padding-bottom: 7px;
+	left: 10%;
+	width: 75%;
+	padding-top: 9px;
+	padding-bottom: 9px;
   	background-color: #F79645;
+  	display: inline;
+}
+.jumbotron .container .rox2{
+
+	position: absolute;
+	bottom: 0;
+	left: 85%;
+	width: 5%;
+	padding-top: 11px;
+	padding-bottom: 10px;
+  	background-color: #F79645;
+  	display: inline;
 }
 
 
+.form-control {
+	border-radius: 7.5px;
+}
 
+.fa-play {
+	padding-top: 2px;
+	color: #fff;
+}
+
+.teachers {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 2%;
+}
+
+.img-circle {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 25%;
+}
+
+.name {
+	font-family: monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.description {
+	font-family: monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	text-align: center;
+	padding-top: 10%;
+	max-width: 100%;
+	word-wrap: break-word;
+}
+
+.jumbo2 {
+  
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #F79645;
+}
+.jumbo2 .container {
+	background-image:url('header.jpg');
+	width: 100%;
+	position: relative;
+	top: 0;
+	height: 290px;
+}
