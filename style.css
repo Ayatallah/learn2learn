@@ -4,7 +4,7 @@
 	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
-	padding-top: 15%;
+	padding-top: 12%;
 	text-transform: uppercase;
 	font-weight: 300;
 	letter-spacing:0.9px;
@@ -153,10 +153,10 @@ h3{
 }
 
 .experience {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  position: relative;
-  min-height: 370px;
+	position: relative;
+  	padding-top: 2%;
+  	padding-bottom: 2%;
+  	min-height: 370px;
 }
 
 .slider3 {
@@ -196,32 +196,49 @@ h3{
 }
 
 .teacher-slider{
+  position: relative;
   background-image:url('teachers/tslider.jpg');
   min-height: 595px;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 .teacher-slider .slider-row{
-	min-height: 250px;
-	margin-top: 250px;
-	padding-left: 35%;
-	position: absolute;
+	padding-bottom: 5px;
+	padding-left: 33%;
 	background-color: #FFF;
 	opacity: 0.8;
+	top: 210px;
+	min-height: 250px;
+	position: absolute;
 	width: 100%;
+	float: left;
 }
-.teacher-slider-text{
+.teacher-slider-text {
+	
+	padding-top: 15px;
 	font-family:arial,sans-serif;
 	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
+	max-width: 66%;
 	text-align: left;
-	text-transform: uppercase;
 	color:#F79645;
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing:0.9px;
+}
+.teacher-slider-p{
+	font-family:arial,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	text-align: left;
+	max-width: 66%;
+	color:#383838;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing:1.5px;
 }
 .nopadding {
    padding: 0 !important;
@@ -261,18 +278,64 @@ h3{
 
 .teacherTd{
     height: 40px;
-    width: 140px;
-    vertical-align: center;
+    width: 476px;
     text-align: left;
 	font-family:arial,sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: lighter;
 	letter-spacing:0.9px;
-
+}
+.teacherFooter{
+	max-width: 50%;
+	margin-left:7.5%;
+	margin-top:1%;
+    text-align: left;
+	font-family:arial,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	letter-spacing:0.9px;
 }
 /*
+media queries for text responsiveness
+*/
 
-photos adjusting/logo/content only left
+@media(max-width:1208px){
+	.teacher-slider .slider-row{
+		padding-left: 10%;
+		
+	}
+	.teacher-slider-text {
+		font-size: 25px;
+	}
+	.teacher-slider-p {
+		font-size: 16px;
+		max-width: 100%;
+	}
+}
+@media(max-width:815px){
+	.teacher-slider .slider-row{
+		padding-left: 10%;
+		top: 100px;
+	}
+	.teacher-slider-p{
+		font-size: 14px;
+		max-width: 100%;
+	}
+	.teacher-slider-text {
+		font-size: 16px;
+	}
+}
+@media(max-width:415px){
+	.teacher-slider .slider-row{
+		padding-left: 10%;
+		top: 20px;
+	}
+}
+
+/*
+logo left
 */
