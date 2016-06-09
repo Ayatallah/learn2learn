@@ -1,3 +1,43 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.main {
+    float:left;
+    width:100%;
+    position:relative;
+}
+.left-side{
+	position:absolute;
+    top:0; bottom:0; left:0;
+    width:0%;
+    background:#fff;
+}
+.right-side{
+	position:absolute;
+    top:0; bottom:0; right:0;
+    width:0%;
+    background:#fff;
+}
+.center-col{
+	position:relative;
+    left: 0%;
+    width:100%;
+}
+/*
+.left-side{
+	position:absolute;
+    top:0; bottom:0; left:0;
+    width:10%;
+    background:#000;
+}
+.right-side{
+	position:absolute;
+    top:0; bottom:0; right:0;
+    width:10%;
+    background:#000;
+}
+*/
 .tit{
 
 	font-family:arial,sans-serif;
@@ -66,8 +106,8 @@ h3{
 }
 
 .img-circle {
-	height: 175px;
-	width: 200px;
+	height: 170px;
+	width: 175px;
 	overflow:hidden;
 	border-radius: 50%;
 	display: block;
@@ -202,9 +242,27 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.teacher-slider-row {
+	background: rgba(255, 255, 255, 0.8);
+	vertical-align: center;
+	position: absolute;
+	bottom: 45px;
+	width: 100%;
+	padding-top: 1.5%;
+	padding-bottom: 1%;
+}
+
+.teacherImage{
+	margin-left:25%;
+	margin-bottom: 2%;
+	float:left;
+	position: relative;
+	height:70%;
+	width: 70%;
+	display: block;
+}
 .teacher-slider .slider-row{
 	padding-bottom: 5px;
-	padding-left: 33%;
 	background-color: #FFF;
 	opacity: 0.8;
 	top: 210px;
@@ -214,8 +272,7 @@ h3{
 	float: left;
 }
 .teacher-slider-text {
-	
-	padding-top: 15px;
+	padding: 22px;
 	font-family:arial,sans-serif;
 	font-size: 28px;
 	font-style: normal;
@@ -227,13 +284,24 @@ h3{
 	text-transform: uppercase;
 	letter-spacing:0.9px;
 }
+.tspan{
+	font-size: 28px;
+	font-weight: lighter;
+	color:#F79645;
+	text-transform: uppercase;
+	letter-spacing:0.9px!important;
+	max-width:30%;
+}
 .teacher-slider-p{
 	font-family:arial,sans-serif;
 	font-size: 16px;
+	padding-left: 15px;
 	font-style: normal;
 	font-variant: normal;
+	position: relative;
 	text-align: left;
-	max-width: 66%;
+	max-width: 80%;
+	float: left;
 	color:#383838;
 	font-style: normal;
 	font-variant: normal;
@@ -267,18 +335,73 @@ h3{
 	letter-spacing:0.9px;
 }
 
-.teacherImage{
-	float:left;
-	height:275px;
-	width:330px;
-	display: block;
-	margin-top:15px;
-	margin-right:45px;
-}
+.teacherPageName{
 
+	color: #F79645;
+	font-family:arial,sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing:0.9px;
+}
+.zeit-tableth{
+	vertical-align: center;
+	text-align: center;
+	background-color: #eee;
+    height: 35px;
+    width: 65px;
+	font-family:arial,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	letter-spacing:0.9px;
+	color:#F79645;
+}
+.zeit-tabletd{
+	padding: 4px;
+	vertical-align: center;
+	text-align: left;
+    height: 35px;
+	font-family:arial,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	letter-spacing:0.9px;
+}
+.zeit-tabletdy{
+	padding: 4px;
+	vertical-align: center;
+	text-align: center;
+	color: green;
+    height: 35px;
+	font-family:arial,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	letter-spacing:0.9px;
+}
+.zeit-tabletdx{
+	padding: 4px;
+	vertical-align: center;
+	text-align: center;
+	color: #AF0B10;
+    height: 35px;
+	font-family:arial,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	letter-spacing:0.9px;
+}
 .teacherTd{
+	vertical-align: center;
     height: 40px;
-    width: 476px;
+    width: 100%;
     text-align: left;
 	font-family:arial,sans-serif;
 	font-size: 16px;
@@ -299,6 +422,14 @@ h3{
 	font-weight: lighter;
 	letter-spacing:0.9px;
 }
+.teacherBox{
+	border: 1px solid;
+	border-color: #eee;
+ 	border-radius: 15px;
+    display: block;
+    padding: 30px;
+    margin: 35px;
+}
 /*
 media queries for text responsiveness
 */
@@ -306,7 +437,7 @@ media queries for text responsiveness
 @media(max-width:1208px){
 	.teacher-slider .slider-row{
 		padding-left: 10%;
-		
+
 	}
 	.teacher-slider-text {
 		font-size: 25px;
@@ -315,8 +446,10 @@ media queries for text responsiveness
 		font-size: 16px;
 		max-width: 100%;
 	}
+
 }
-@media(max-width:815px){
+
+@media(max-width:780px){
 	.teacher-slider .slider-row{
 		padding-left: 10%;
 		top: 100px;
@@ -328,14 +461,46 @@ media queries for text responsiveness
 	.teacher-slider-text {
 		font-size: 16px;
 	}
+	.tspan {
+		font-size: 16px;
+	}
+	.teacher-slider-row{
+		bottom: 30px;
+	}
+
+
 }
 @media(max-width:415px){
 	.teacher-slider .slider-row{
 		padding-left: 10%;
 		top: 20px;
 	}
+
+
+}
+
+@media screen and (min-width: 1550px) {
+.left-side{
+	position:absolute;
+    top:0; bottom:0; left:0;
+    width:8%;
+    background:#fff;
+}
+.right-side{
+	position:absolute;
+    top:0; bottom:0; right:0;
+    width:8%;
+    background:#fff;
+}
+.center-col{
+	position:relative;
+    left: 8%;
+    width:84%;
+}
 }
 
 /*
-logo left
+manz choices for box borders
+adjust slider row text
+tbody style
 */

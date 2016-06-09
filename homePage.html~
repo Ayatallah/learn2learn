@@ -16,8 +16,8 @@
 <body>
 	<div class="nav">
 		<div class="container">
-			<div class="pull-left">
-				<img src="logo.jpg" alt="Logo" height="80" width="80">
+			<div class="pull-left" >
+				<a href="homePage.html"><img src="logo.jpg" alt="Logo" height="45" width="135" style="margin:12px;"></a>
 			</div>
 			<div class="pull-right">
 					<div class="tit">NACHHILFEPORTAL </div>
@@ -113,7 +113,7 @@
 		</div>
 		<div class="row"  style="margin-top:20px;">
 			<div class="col-sm-4" >
-				<img src="simon.jpg "style="height:75%; width:75%; margin-left:20%;display:block;">
+				<img src="teaching.jpg "style="height:75%; width:75%; margin-left:20%;display:block;">
 			</div>
 			<div class="col-sm-8">
 			<h3 style="text-align: left;text-transform:uppercase;">
@@ -131,11 +131,11 @@
 			Nachhilfelehrer finden
 			</h3>
 			<br/>
-			<p style="text-align: right;font-weight:bold;font-size:16px;max-width:75%;margin-left:25%;color:#484848;">Haben Sie Freude am Unterrichten von Schülern, Studenten oder Erwachsenen? Möchten Sie gerne eigenständig und zeitlich flexibel als Nachhilfelehrer tätig werden? Dann melden Sie sich auf unserem Portal an und stellen Sie kostenfrei Ihr Angebot für Nachhilfe ein oder nehmen Sie Kontakt zu Unterrichtsuchenden auf! </p>
+			<p style="text-align: right;font-weight:bold;font-size:16px;max-width:75%;margin-left:25%;color:#484848;">Suchen Sie für Ihr Kind oder für sich selbst kompetente Unterstützung in Deutsch, Mathematik, Englisch, Französisch, Spanisch, Naturwissenschaften, BWL, einem anderen Fach oder einer anderen Sprache? Finden Sie bei uns gezielt und kurzfristig geeignete Lehrkräfte oder tragen Sie kostenfrei Ihr Unterrichtsgesuch ein! </p>
 			</div>
 
 			<div class="col-sm-4">
-				<img src="simon.jpg "style="height:75%; width:75%;margin-left:5%;display:block;">
+				<img src="group1.jpg "style="height:75%; width:75%;margin-left:5%;display:block;">
 			</div>
 		</div>
 		<div class="row-bottom">
