@@ -1,52 +1,14 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
 .main {
-    /*float:left;*/
     width:80%;
-    /*min-width:1100px;*/
     margin-left: auto;
     margin-right: auto;
     position:relative;
     align-content: center;
 }
-/*
-.left-side{
-	position:absolute;
-    top:0; bottom:0; left:0;
-    width:0%;
-    background:#fff;
-}
-.right-side{
-	position:absolute;
-    top:0; bottom:0; right:0;
-    width:0%;
-    background:#fff;
-}*/
-.center-col{
-	position:relative;
-	align-self: center;
-	width:100%;
-    /*left: 0%;*/
-
-
-}
-/*
-.left-side{
-	position:absolute;
-    top:0; bottom:0; left:0;
-    width:10%;
-    background:#000;
-}
-.right-side{
-	position:absolute;
-    top:0; bottom:0; right:0;
-    width:10%;
-    background:#000;
-}
-*/
-.tit{
+.header-title{
 
 	font-family:arial,sans-serif;
 	font-size: 20px;
@@ -57,19 +19,15 @@
 	font-weight: 300;
 	letter-spacing:0.9px;
 	color: #484848;
-	margin-right: 0;
 }
 
 h3{
-
 	font-family:arial,sans-serif;
 	font-size: 26px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 250;
 	color: #F79645;
-
-
 }
 
 .slider {
@@ -115,14 +73,11 @@ h3{
 }
 
 .img-circle {
-	height: 170px;
-	width: 175px;
 	overflow:hidden;
 	border-radius: 50%;
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-
 }
 
 .name {
@@ -150,9 +105,7 @@ h3{
 }
 
 .slider2 {
-
   background-image:url('board.jpg');
-
   opacity: 0.92;
   background-repeat: no-repeat;
   box-shadow: 0px 5px 15px 0px #888888;
@@ -163,7 +116,6 @@ h3{
 }
 
 .container-text {
-
 	font-family:arial,sans-serif;
 	font-size: 50px;
 	font-style: normal;
@@ -236,22 +188,6 @@ h3{
   position: relative;
 }
 
-.row-bottom{
-	width: 100%;
-	bottom: 0;
-	position: absolute;
-	height: 20px;
-	background-color: #F79645;
-}
-
-.row-top{
-	width: 100%;
-	top: 0;
-	position: absolute;
-	height: 20px;
-	background-color: #F79645;
-}
-
 .teacher-slider{
     position: relative;
     background-image: url('teachers/tslider.jpg');
@@ -260,25 +196,13 @@ h3{
     background-size: cover;
 }
 .teacher-slider-row {
+
 	background: rgba(255, 255, 255, 0.8);
     padding-bottom: 5px;
     padding-left: 5%;
-    /* top: 51px; */
     min-height: 250px;
-    /* position: relative; */
-    width: 100%;
     float: left;
     margin-top: 245px;
-
-    /*
-    background: rgba(255, 255, 255, 0.8);
-	vertical-align: center;
-	position: absolute;
-	bottom: 45px;
-	width: 100%;
-	padding-top: 1.5%;
-	padding-bottom: 1%;
-    */
 }
 
 .teacherImage{
@@ -292,16 +216,7 @@ h3{
 	margin-left: 5%;
 	display: block;
 }
-.teacher-slider .slider-row{
-	padding-bottom: 5px;
-	background-color: #FFF;
-	opacity: 0.8;
-	top: 210px;
-	min-height: 250px;
-	position: absolute;
-	width: 100%;
-	float: left;
-}
+
 .teacher-slider-text {
 	padding: 22px;
 	font-family:arial,sans-serif;
@@ -316,7 +231,7 @@ h3{
 	letter-spacing:0.9px;
 }
 .tspan{
-	font-size: 28px;
+	font-size: 27px;
 	font-weight: lighter;
 	color:#F79645;
 	text-transform: uppercase;
@@ -332,7 +247,7 @@ h3{
 	text-align: left;
 	margin-left: 5px;
 	max-width: 100%;
-	margin-top: 4%;
+	margin-top: 3.5%;
 	float: left;
 	color:#383838;
 	font-style: normal;
@@ -340,11 +255,13 @@ h3{
 	font-weight: normal;
 	letter-spacing:1.5px;
 }
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
    overflow:auto;
 }
+
 .teacherTitle{
 	text-decoration: underline;
 	font-family:arial,sans-serif;
@@ -434,18 +351,6 @@ h3{
 	vertical-align: center;
     height: 40px;
     width: 100%;
-    text-align: left;
-	font-family:arial,sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: lighter;
-	letter-spacing:0.9px;
-}
-.teacherFooter{
-	max-width: 50%;
-	margin-left:7.5%;
-	margin-top:1%;
     text-align: left;
 	font-family:arial,sans-serif;
 	font-size: 16px;
