@@ -30,14 +30,41 @@ h3{
 	color: #F79645;
 }
 
+h4{
+	font-family:arial,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	color: #F79645;
+}
+
 .slider {
   background-image:url('slider1kids.jpg');
-  height: 400px;
+  min-height: 420px;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0px 5px 15px 0px #888888;
+}
+
+.kontakt-slider {
+  background-image:url('kontaktslider.jpg');
+  min-height: 550px;
+  background-position: 50% 40%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
+.impressum-slider {
+  background-image:url('impslider.jpg');
+  opacity: 0.75;
+  min-height: 580px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .slider  .slider-row{
 
 	position: absolute;
@@ -51,7 +78,16 @@ h3{
   	display: inline;
 }
 
-
+.search-bar-row{
+	background-color: #F79645;
+	height: 30px;
+	vertical-align: center;
+}
+.search-bar-col{
+	width:47%;
+	text-align: center;
+	padding: 6px;
+}
 .form-control {
 	border-radius: 7.5px;
 	height: 40px;
@@ -120,10 +156,12 @@ h3{
 	font-size: 50px;
 	font-style: normal;
 	font-variant: normal;
+	font-weight: normal;
 	text-align: center;
 	color:#F79645;
-	font-weight: normal;
 	letter-spacing:2.25px;
+	text-transform: uppercase;
+	hyphens:manual;
 }
 
 .container-text2 {
@@ -134,7 +172,6 @@ h3{
 	font-variant: normal;
 	text-align: center;
 	color:#FFF;
-	font-weight: lighter;
 	letter-spacing:1.1px;
 }
 
@@ -143,13 +180,11 @@ h3{
 	font-size: 44px;
 	font-style: normal;
 	font-variant: normal;
+	font-weight: normal;
+	color:#383838;
+	letter-spacing:1.5px;
 	text-align: center;
 	max-width: 80%;
-	color:#383838;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	letter-spacing:1.5px;
 	margin-left: 10%
 }
 
@@ -161,7 +196,37 @@ h3{
   	border-top: 21px solid #F79645;
   	border-bottom: 21px solid #F79645;
 }
-
+.experience-right-text{
+	text-align: left;
+	font-weight:bold;
+	font-size:16px;
+	max-width:85%;
+	color:#484848;
+}
+.experience-left-photo{
+	height:215px;
+	width:305px;
+	margin-left:3%;
+	float:left;
+	margin-right:3%;
+	display:block;
+}
+.experience-left-text{
+	text-align: right;
+	font-weight:bold;
+	font-size:16px;
+	max-width:80%;
+	color:#484848;
+	margin-left:10%;
+}
+.experience-right-photo{
+	height:215px;
+	width:305px;
+	display:block;
+	float:right;
+	margin-right:5%;
+	margin-left:3%;
+}
 .teacher-experience{
 	position: relative;
   	padding-top: 2%;
@@ -175,14 +240,13 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
-
 }
 .slider4 {
 
   min-height: 585px;
   width: 100%;
   background-image:url('slider4girl.jpg');
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -217,43 +281,25 @@ h3{
 	display: block;
 }
 
-.teacher-slider-text {
-	padding: 22px;
-	font-family:arial,sans-serif;
-	font-size: 28px;
-	font-style: normal;
-	font-variant: normal;
-	max-width: 76%;
-	text-align: left;
+.tspan{
+	font-size: 26px;
 	color:#F79645;
-	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing:0.9px;
-}
-.tspan{
-	font-size: 27px;
-	font-weight: lighter;
-	color:#F79645;
-	text-transform: uppercase;
-	letter-spacing:0.9px!important;
 	max-width:30%;
 }
 .teacher-slider-p{
 	font-family:arial,sans-serif;
 	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	position: relative;
 	text-align: left;
-	margin-left: 5px;
-	max-width: 100%;
-	margin-top: 3.5%;
-	float: left;
 	color:#383838;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: normal;
 	letter-spacing:1.5px;
+	position: relative;
+	margin-left: 5px;
+	margin-top: 3.7%;
 }
 
 .nopadding {
@@ -273,15 +319,6 @@ h3{
 	color: #484848;
 	text-align: left;
 
-}
-.teacherName{
-	font-family:arial,sans-serif;
-	font-size: 19px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: lighter;
-	text-transform: uppercase;
-	letter-spacing:0.9px;
 }
 
 .teacherPageName{
@@ -373,18 +410,34 @@ h3{
 	clear: both;
 }
 
-.search-bar-row{
-	background-color: #F79645;
-	height: 30px;
-	vertical-align: center;
-}
-.search-bar-col{
-	width:47%;
-	text-align: center;
-	padding: 6px;
+
+footer{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 0;
+    position:relative;
+    align-content: center;
+    background-color:  #F79645;
 }
 
+a.footer-link {
+	color: #fff;
+}
+
+.footer-td{
+	width:40%;
+	text-align:right;
+	height:40px;
+	color:#fff;
+	font-family:arial,sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+}
 /*bootstrap carousel*/
+
 .carousel-control.left, .carousel-control.right {
    background-image:none !important;
    filter:none !important;
@@ -407,24 +460,7 @@ h3{
 
 }
 
-footer{
-    width:80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    padding-top: 0;
-    position:relative;
-    align-content: center;
-    background-color:  #F79645;
-}
 
-a.footer-link {
-	color: #fff;
-}
-.footer-list{
-	display: inline;
-	margin: 20px;
-}
 /*
 media queries for text responsiveness no longer needed
 */
