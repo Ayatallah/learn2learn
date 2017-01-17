@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rabe e. V.</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="style.css">
+  	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="main">
+		<div class="nav">
+			<div class="pull-left">
+				<!--a href="homePage.html"><img src="logo.jpg" alt="Logo" height="45" width="135" style="margin:12px;"></a-->
+			</div>
+			<div class="pull-right">
+				<div class="header-title">NACHHILFEPORTAL</div>
+			</div>
+		</div>
+	<div class="kontakt-slider">
+	<div class="red-bar"></div>
+                <div class="header-image">
+                		<p class="header-heading">Unterstützung für die Schule!</p>
+                        <p class="header-secondary">Rabe e. V. bietet seine Hilfe an und bringt die Finanzierung mit!</p><br>
+                        <p class="header-text">Kinder und Jugendliche mit besonderen Herausforderungen stellen hohe Ansprüche an das System Schule. Der gemeinnützige Rabe e. V. (Raum für Bildung und Erziehung) hat sich deshalb zum Ziel gesetzt, die Schule dabei zu unterstützen, diesen Kindern und Jugendlichen zu ermöglichen, die wesentlichen schulischen Ziele zu erreichen.
+Dies geschieht durch das Einbringen zusätzlicher lerntherapeutischer Ressourcen, welche je nach Zielgruppe über unterschiedliche Programme finanziert werden, so dass der Schule und in der Regel auch den Schülern hierfür keine Kosten entstehen. Dabei arbeiten unsere Pädagog(inn)en und Psycholog(inn)en eng mit Schule und Elternhaus zusammen, um gemeinsam zu erwirken, dass die betroffenen Kinder und Jugendlichen die Versetzung schaffen und unabhängig von ihrer Herkunft, ihrer finanziellen und soziökonomischen Situation einen ihrer Begabung angemessenen Abschluss erreichen können. </p>
+                </div>
+                <div class="red-bar"></div>
+	</div>
+
+	<div class="teacher-experience">
+		<div class="row" >
+			<div class="col-sm-12">
+				<h4>
+					Was können wir für Sie tun?
+				</h4>
+				<p>
+					Sie haben eine Frage, einen Wunsch oder möchten einfach etwas loswerden?
+					Das ist gut, denn wir benötigen Ihr Feedback, um optimal auf Ihre Bedürfnisse und Anforderungen eingehen zu können:
+				</p>
+
+				<form action="MAILTO:ayatallah.amr@gmail.com" method="post" enctype="text/plain">
+				<label>Vor- und Nachname: *</label>
+				<br>
+				<input type="text" name="name" placeholder ="Ihre Name" style="width:25%;" required><br>
+				<br>
+				<label> E-Mail: *<br></label>
+				<br>
+				<input type="text" name="mail" placeholder ="Ihre E-mail" style="width:25%;" required><br>
+				<br>
+				<label>Ihre Nachricht an uns: *</label>
+				<br>
+				<textarea rows="5" cols="60" name="comment" form="usrform" placeholder="Ihre Nachricht" required></textarea><br><br>
+				<input type="submit" value="Mail Senden">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+<footer>
+	<table style="width: 100%;">
+		<tbody>
+			<tr>
+					<td class="footer-td"style="text-align:right;">
+						<a class="footer-link" href="impressum.html">Impressum</a>
+					</td>
+					<td class="footer-td" style="width:10%;text-align:center;font-weight:bold;">·</td>
+
+					<td class="footer-td" style="text-align:left;">
+						<a class="footer-link" href="kontakt.html">Kontakt</a>
+					</td>
+			</tr>
+		</tbody>
+	</table>
+</footer>
+
+</html>

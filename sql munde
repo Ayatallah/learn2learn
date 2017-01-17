@@ -1,0 +1,13 @@
+SELECT name,id, gruppe,aktiv,sortierung,
+
+CASE WHEN LOCATE('<sup>',name) > 0 THEN replace(
+replace(concat(substr(name,1, LOCATE('<sup>',name)-1) , substr(name, LOCATE('</sup>', name)+6, 100)  ), '<small>', ''),
+
+'</small>', '') ELSE replace(
+replace(name, '<small>', ''),
+
+'</small>', '') END AS result_name
+
+
+
+FROM `tab_produkte`  WHERE aktiv=1 ORDER BY sortierung

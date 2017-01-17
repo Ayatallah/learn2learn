@@ -9,152 +9,235 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   	<link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 
 <body>
-	<div class="nav">
-		<div class="container">
+	<div class="main">
+	<div class="container">
+		<div class="nav">
 			<div class="pull-left" >
 				<a href="homePage.html"><img src="logo.jpg" alt="Logo" height="45" width="135" style="margin:12px;"></a>
 			</div>
 			<div class="pull-right">
-					<div class="tit">NACHHILFEPORTAL </div>
+				<div class="header-title">NACHHILFEPOOL </div>
 			</div>
 		</div>
-	</div>
-
-	<div class="slider">
-		<div class="container">
-			<div class="slider-row">
-			<table style="width: 100%;">
-				<tr style="background-color: ##F79645;height: 30px;vertical-align: center;">
-					<td style="width:47%;text-align: center;padding: 6px;">
-		    		<div class="right-inner-addon">
-		        		<input type="search"
-
-		               class="form-control"
-		               placeholder="Fach" />
-		    		</div>
-					</td>
-					<td style="width:47%;text-align: center;padding: 6px;">
-		    		<div class="right-inner-addon">
-		        		<input type="search"
-		               class="form-control"
-		               placeholder="Ort" />
-		    		</div>
-					</td>
-					<td style="width:10%;text-align: center;padding: 6px;">
-					<div class="right-inner-addon" >
-	        			<i class="fa fa-play 2x" ></i>
-	        		</div>
-					</td>
-				</tr>
-			</table>
-			</div>
-
-
-
-
 		</div>
-	</div>
-
-
-
-	<div class="teachers">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-md-4">
-					<a href="guessous.html"><img src="teachers/geussos1.jpg" class="img-circle"></a>
-					<p class="name">Dr. Fouad Guessous</p>
-					<p class="description">Mathematik, Physik Chemie, Französisch</p>
-					<p class="description">Nürtimgen</p>
-				</div>
-
-				<div class="col-md-4">
-					<a href="ricardo.html"><img src="teachers/ricardo1.png" class="img-circle"></a>
-					<p class="name">Ricardo Sánchez</p>
-					<p class="description">Spanisch, Bussiness Spanisch</p>
-					<p class="description">Stuttgart</p>
-				</div>
-
-				<div class="col-md-4">
-					<a href="becker.html"><img src="teachers/becker1.jpg" class="img-circle"></a>
-					<p class="name">Sören Becker</p>
-					<p class="description">Chemie, Naturwissenschaften, Sozialwissenschaften, Politik, Gesellschaftslehre, Wirtschaft</p>
-					<p class="description">Dortmund</p>
-				</div>
-			</div>
-
-
-
+		<div class="slider">
+			<!--div class="slider-row">
+				<table style="width: 100%;">
+					<tr class="search-bar-row">
+						<td class="search-bar-col">
+			    			<div class="right-inner-addon">
+			        			<input type="search" class="form-control"
+			               		placeholder="Fach" />
+			    			</div>
+						</td>
+						<td class="search-bar-col">
+			    			<div class="right-inner-addon">
+			        			<input type="search" class="form-control"
+			               		placeholder="Ort" />
+			    			</div>
+						</td>
+						<td class="search-bar-col">
+							<div class="right-inner-addon">
+		        				<i class="fa fa-play 2x"></i>
+		        			</div>
+						</td>
+					</tr>
+				</table>
+			</div-->
 		</div>
-	</div>
 
-	<div class="slider2">
-		<div class="container">
+
+
+		<div class="teachers">
+
+		  <div class="row">
+		      <div class="carousel slide multi-item-carousel" id="theCarousel">
+		        <div class="carousel-inner">
+
+		          <div class="item active">
+		            <div class="col-md-4">
+							<a href="guessous.html"><img src="teachers/290x290_Guessous.jpg" class="img-circle" ></a>
+							<p class="name">Herr Guessous</p>
+							<p class="description">Mathematik, Physik, Chemie, Französisch</p>
+							<p class="description">Nürtimgen</p>
+		            </div>
+		          </div>
+
+		          <div class="item">
+		            <div class="col-md-4">
+							<a href="ricardo.html"><img src="teachers/290x290_Ricardo.png" class="img-circle" ></a>
+							<p class="name">Herr Sánchez</p>
+							<p class="description">Spanisch, Bussiness, Spanisch</p>
+							<p class="description">Stuttgart</p>
+		            </div>
+		          </div>
+
+		          <div class="item">
+		            <div class="col-md-4">
+							<a href="becker.html"><img src="teachers/transparent_becker.png" class="img-circle" ></a>
+							<p class="name">Herr Becker</p>
+							<p class="description">Chemie, Naturwissenschaften, Sozialwissenschaften, Politik</p>
+							<p class="description">Dortmund</p>
+		            </div>
+		          </div>
+
+		          <div class="item">
+		            <div class="col-md-4">
+							<a href="helm.html"><img src="teachers/transparent_helm.png" class="img-circle" ></a>
+							<p class="name">Herr Helm</p>
+							<p class="description">Alle Fächer</p>
+							<p class="description">Reutlingen, Tübingen, Kusterdingen</p>
+		            </div>
+		          </div>
+		          <div class="item">
+		            <div class="col-md-4">
+							<a href="muller.html"><img src="teachers/290x290_Mueller.jpg" class="img-circle" ></a>
+							<p class="name">Frau Müller</p>
+							<p class="description">Deutsch, Englisch, Mathematik</p>
+							<p class="description">Tübingen</p>
+		            </div>
+		          </div>
+		          <div class="item">
+		            <div class="col-md-4">
+							<a href="buchelt.html"><img src="teachers/290x290_Dr.Buchelt.jpg" class="img-circle" ></a>
+							<p class="name">Frau Dr. Buchelt-Breil</p>
+							<p class="description">Englisch, Deutsch, Französisch, Latein</p>
+							<p class="description">Hattersheim</p>
+		            </div>
+		          </div>
+		        </div>
+		        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+		        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+		      </div>
+		  </div>
+		</div>
+
+		<div class="slider2">
 			<div class="container-text">
-
 				Nachhilfe in Ihrer Nähe
 			</div><br/>
 			<div class="container-text2">
-				Möchten Sie Nachhilfeunterricht geben oder suchen Sie einen privaten Nachhilfelehrer bei Ihnen vor Ort? </div><br/>
-<div class="container-text2">Bei Nachhilfepool können Sie schnell und unkompliziert qualifizierte Nachhilfelehrer für alle Schulfächer und Klassen sowie für fachliche Hilfe in Studium, Ausbildung etc. finden.</div><br/>
-<div class="container-text2">Wenn Sie Schüler oder Erwachsene unterrichten möchten, können Sie bei uns auch die passenden Nachhilfeschüler finden.</div><br/>
-
-		</div>
-	</div>
-
-
-	<div class="experience">
-		<div class="row-top">
-		</div>
-		<div class="row"  style="margin-top:20px;">
-			<div class="col-sm-4" >
-				<img src="teaching.jpg "style="height:75%; width:75%; margin-left:20%;display:block;">
-			</div>
-			<div class="col-sm-8">
-			<h3 style="text-align: left;text-transform:uppercase;">
-			Nachhilfeunterricht geben
-			</h3>
-			<br/>
-			<p style="text-align: left;max-width:75%;font-weight:bold;font-size:16px;color:#484848;">Haben Sie Freude am Unterrichten von Schülern, Studenten oder Erwachsenen? Möchten Sie gerne eigenständig und zeitlich flexibel als Nachhilfelehrer tätig werden? Dann melden Sie sich auf unserem Portal an und stellen Sie kostenfrei Ihr Angebot für Nachhilfe ein oder nehmen Sie Kontakt zu Unterrichtsuchenden auf! </p>
-			</div>
+				Möchten Sie Nachhilfeunterricht geben oder suchen Sie einen privaten Nachhilfelehrer bei Ihnen vor Ort?
+			</div><br/>
+			<div class="container-text2">
+				Bei Nachhilfepool können Sie schnell und unkompliziert qualifizierte Nachhilfelehrer für alle Schulfächer und Klassen sowie für fachliche Hilfe in Studium, Ausbildung etc. finden.
+			</div><br/>
+			<div class="container-text2">
+				Wenn Sie Schüler oder Erwachsene unterrichten möchten, können Sie bei uns auch die passenden Nachhilfeschüler finden.
+			</div><br/>
 		</div>
 
-		<div class="row"  style="margin-bottom:20px;">
 
-			<div class="col-sm-8" >
-			<h3 style="text-align: right;text-transform:uppercase">
-			Nachhilfelehrer finden
-			</h3>
-			<br/>
-			<p style="text-align: right;font-weight:bold;font-size:16px;max-width:75%;margin-left:25%;color:#484848;">Suchen Sie für Ihr Kind oder für sich selbst kompetente Unterstützung in Deutsch, Mathematik, Englisch, Französisch, Spanisch, Naturwissenschaften, BWL, einem anderen Fach oder einer anderen Sprache? Finden Sie bei uns gezielt und kurzfristig geeignete Lehrkräfte oder tragen Sie kostenfrei Ihr Unterrichtsgesuch ein! </p>
+		<div class="experience">
+			<div class="row"  style="margin-top:20px;">
+				<div class="col-sm-12" >
+					<img src="teaching.jpg" class="experience-left-photo">
+					<h3 style="text-align: left;text-transform:uppercase;">
+						Nachhilfeunterricht geben
+					</h3>
+					<br/>
+					<p class="experience-right-text">
+						Haben Sie Freude am Unterrichten von Schülern, Studenten oder Erwachsenen? Möchten Sie gerne eigenständig und zeitlich flexibel als Nachhilfelehrer tätig werden? Dann melden Sie sich auf unserem Portal an und stellen Sie kostenfrei Ihr Angebot für Nachhilfe ein oder nehmen Sie Kontakt zu Unterrichtsuchenden auf!
+					</p>
+				</div>
 			</div>
 
-			<div class="col-sm-4">
-				<img src="group1.jpg "style="height:75%; width:75%;margin-left:5%;display:block;">
+			<div class="row"  style="margin-bottom:20px;">
+				<div class="col-sm-12" >
+					<img src="group1.jpg" class="experience-right-photo">
+					<h3 style="text-align: right;text-transform:uppercase;">
+						Nachhilfelehrer finden
+					</h3>
+					<br/>
+					<p class="experience-left-text">
+						Suchen Sie für Ihr Kind oder für sich selbst kompetente Unterstützung in Deutsch, Mathematik, Englisch, Französisch, Spanisch, Naturwissenschaften, BWL, einem anderen Fach oder einer anderen Sprache? Finden Sie bei uns gezielt und kurzfristig geeignete Lehrkräfte oder tragen Sie kostenfrei Ihr Unterrichtsgesuch ein!
+					</p>
+				</div>
 			</div>
 		</div>
-		<div class="row-bottom">
-		</div>
-	</div>
 
-	<div class="slider3">
-		<div class="container">
-			<div class="container-text" style="text-transform: uppercase;">
+		<div class="slider3">
+			<div class="container-text">
 				<br/><br/>Jetzt registrieren
-			</div>
+			</div><br/>
 			<div class="container-text3">
 				und Nachhilfelehrer oder Nachhilfeschüler finden!
 			</div>
 		</div>
-	</div>
 
 		<div class="slider4">
 		</div>
+	</div>
+	<script type="text/javascript">
+			//$('.multi-item-carousel').carousel({
+		  //interval: 3000
+		//});
+		$('.multi-item-carousel .item').each(function(){
+		  var next = $(this).next();
+		  if (!next.length) {
+		    next = $(this).siblings(':first');
+		  }
+		  next.children(':first-child').clone().appendTo($(this));
+
+		  if (next.next().length>0) {
+		    next.next().children(':first-child').clone().appendTo($(this));
+		  } else {
+		  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+		  }
+		});
+	</script>
 </body>
+
+
+<footer>
+		<table style="width: 100%;">
+			<tbody>
+				<tr>
+					<td class="footer-td" style="text-align:right;">
+						<a class="footer-link" href="agb.html">AGB</a>
+					</td>
+					<td class="footer-td" style="width:5%;text-align:center;font-weight:bold;">·</td>
+
+					<td class="footer-td" style="width:5%;text-align:center;">
+						<a class="footer-link" href="impressum.html">Impressum</a>
+					</td>
+					<td class="footer-td" style="width:5%;text-align:center;font-weight:bold;">·</td>
+
+					<td class="footer-td" style="width:5%;text-align:center;">
+						<a class="footer-link" href="kontakt.html">Kontakt</a>
+					</td>
+					<td class="footer-td" style="text-align:center;font-weight:bold;">·</td>
+					<td class="footer-td" style="text-align:left;">
+						<a class="footer-link" href="preise.html">Preise</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="width: 87%;">
+			<tbody>
+				<tr>
+						<td class="footer-td" style="text-align:center;font-weight:bold;">
+						<a href="https://www.facebook.com/Learn2Learn-388790051260917/?fref=ts" target="_blank">
+						<img src="facebook.png" height="30" width="32"></a>
+						<a href="https://twitter.com/Learn2LearnGmbH" target="_blank">
+						<img src="twitter.png" height="30" width="32"></a>
+						<a href="https://plus.google.com/u/0/116821468896595726269/posts" target="_blank">
+						<img src="googlep.png" height="30" width="32"></a>
+						<a href="https://www.linkedin.com/in/karin-schmausser-aa2293b2" target="_blank">
+						<img src="linkedin.png" height="30" width="32"></a>
+						</td>
+
+				</tr>
+			</tbody>
+		</table>
+</footer>
 
 </html>
